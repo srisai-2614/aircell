@@ -1,0 +1,46 @@
+/* Call.css */
+.Call {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+  }
+.archived{
+  background: #c3bdbd;
+}
+.Call:hover{
+  cursor: pointer;
+  box-shadow: 0 0 9px 0 #081032;
+}
+.Call:active{
+  background-color: #081032;
+  color: #f9f9f9;
+}
+  .Header{
+    display: flex;
+    align-items:self-start;
+    justify-content: space-between;
+  }
+  .Date{
+    font-size: 0.7em;
+    font-weight: 900;
+    color: #403d39;
+  }
+.Options{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.ContactDetails{
+  display: flex;
+  font-size: small;
+  align-items: center;
+}
+.DownArrow
+  {
+    color: #141111;
+    
+    white-space: nowrap;
+}

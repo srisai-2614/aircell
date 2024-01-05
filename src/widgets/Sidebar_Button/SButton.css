@@ -1,0 +1,23 @@
+.SButton{
+    background-color: #0d1b2a;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.SChild{
+    width: 100%;
+    background-color: #0d1b2a;
+    margin-bottom: 7vh;
+}
+.SChild:hover{
+    box-shadow: 0 0 25px 0 #00c3ff;
+}
+@media (max-width:500px) {
+    .SButton{
+        background-color: #fff;
+    }
+    .SChild{
+        width: auto;
+    }
+}

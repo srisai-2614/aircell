@@ -1,0 +1,11 @@
+.FirstHeader{
+    display: flex;
+    font-size: 1.7em;
+    align-items: center;
+    justify-content: start;
+}
+.SelectAll{
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}

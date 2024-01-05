@@ -1,0 +1,18 @@
+.App{
+  display: flex;
+  justify-content: flex-start;
+}
+.Navbar{
+  margin-right:auto;
+}
+.Details{
+  display:flex;
+  flex-direction: column;
+}
+.Head{
+height: 25vh;
+}
+.Calls{
+  width: 80vw;
+  height:auto ;
+}
